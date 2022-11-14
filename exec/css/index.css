@@ -1,0 +1,53 @@
+/*Body*/
+body{
+    background-color: #181818;
+    color: #fff;
+}
+/*Formulário1*/
+.form1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: rgb(77,222,110);
+    padding: 3px;
+}
+/*Caixa de texto 1*/
+.caixa1{
+    border-radius: 5px;
+    margin: 3px;
+    border: solid 3px darkgreen;
+    height: 21px;
+}
+/*Botão Confirmar*/
+.enviar{
+    border-radius: 5px;
+    margin: 3px;
+    height: 33px;
+    background-color: darkgreen;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.enviar:hover{
+    background: #fff;
+    color: darkgreen;
+}
+.enviar:active{
+    background: gold;
+    color: darkgreen;
+}
+/*Título do form1*/
+.tituloForm1{
+    text-align: center;
+    font-family: 'Finger Paint' ,sans-serif;
+    color: darkgreen;    
+}
+.tituloForm2{
+    text-align: justify;
+    font-family: 'Finger Paint' ,sans-serif;
+    color: #fff;    
+}
