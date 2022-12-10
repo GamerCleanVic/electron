@@ -13,11 +13,15 @@
   <body>
     <h1 class="tituloForm2">TABUADA</h1>       
     
-    <form class="form1" action="" method="post">
+    <form id="form1" class="form1" action="" method="post">
       <h1 class="tituloForm1">DIGITE 1 Nº INTEIRO</h1>
-      <input class="caixa1" type="number" autocomplete="none" placeholder="Digite aqui"/>
+      <input class="caixa1" type="number" autocomplete="none" placeholder="Digite aqui" id="num1Tabuada"/>
       <input class="enviar"type="submit" value="Confirmar" />
-      <div id="root"></div>
+      <div id="root"> 
+        <script src="exec/js/tabuada.js">
+
+        </script>  
+      </div>
     </form>
     We are using Node.js <span id="node-version"></span>,
     Chromium <span id="chrome-version"></span>,
