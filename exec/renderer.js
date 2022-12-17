@@ -1,4 +1,4 @@
-const uma = () => {
+/*const uma = () => {
     return(
     <div>
         <input type="text" placeholder="1º nº"/>
@@ -9,4 +9,4 @@ const uma = () => {
 }
 function formulario1(){
     const form1 = document.getElementById('root');
-}
+} */

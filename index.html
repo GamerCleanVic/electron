@@ -12,17 +12,23 @@
   </head>
   <body>
     <h1 class="tituloForm2">TABUADA</h1>       
-    
-    <form id="form1" class="form1" action="" method="post">
-      <h1 class="tituloForm1">DIGITE 1 Nº INTEIRO</h1>
-      <input class="caixa1" type="number" autocomplete="none" placeholder="Digite aqui" id="num1Tabuada"/>
-      <input class="enviar"type="submit" value="Confirmar" />
+    <div class="container_autor">
+      <a class="author" href="https:twitch.tv/jottalpb" target="_blank">
+        Link do Autor
+      </a>
+    </div>
+    <div id="formularioUm">      
+      <form id="form1" class="form1" action="" method="post">
+        <h1 class="tituloForm1">DIGITE 1 Nº INTEIRO</h1>
+        <input maxlength='17' class="caixa1" type="number" autocomplete="none" placeholder="Digite aqui" id="num1Tabuada"/>
+        <input id="myBtn" onclick="myFunction()" class="enviar"type="submit" value="Confirmar" method="post" />        
+      </form>
       <div id="root"> 
         <script src="exec/js/tabuada.js">
 
         </script>  
       </div>
-    </form>
+  </div>
     We are using Node.js <span id="node-version"></span>,
     Chromium <span id="chrome-version"></span>,
     and Electron <span id="electron-version"></span>.

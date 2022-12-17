@@ -1,53 +1,57 @@
 /*Body*/
 body{
     background-color: #181818;
-    color: #fff;
+    color: #ccc;     
 }
 /*Formulário1*/
 .form1{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     border-radius: 5px;
     margin-top: 7px;
     margin-bottom: 7px;
-    background-color: rgb(222,222,110);
+    background-color: rgb(110,110,222);
     padding: 3px;
 }
 /*Caixa de texto 1*/
 .caixa1{
     border-radius: 5px;
     margin: 3px;
-    border: solid 3px rgb(120,120,2);
+    border: solid 3px rgb(33,33,77);
     height: 21px;
+}
+.caixa1:active{
+    border: solid 3px rgb(33,33,77);
 }
 /*Botão Confirmar*/
 .enviar{
     border-radius: 5px;
     margin: 3px;
     height: 33px;
-    background-color: rgb(120,120,2);
-    color: #fff;
+    background-color: rgb(33,33,77);
+    color: #ccc;
     font-weight: bold;
     font-size: 1.2rem;
     text-transform: uppercase;
 }
 .enviar:hover{
-    background: #fff;
-    color: darkgreen;
+    background: #ccc;
+    color: rgb(33,33,77);
 }
 .enviar:active{
-    background: rgb(120,120,2);
-    color: #fff;
+    background: rgb(33,33,77);
+    color: #ccc;
     text-shadow: -2px 1.5px 3px #000;
 }
 /*Título do form1*/
 .tituloForm1{
     text-align: center;
     font-family: 'Finger Paint' ,sans-serif;
-    color: rgb(222,222,110);
-    text-shadow: -1px 1px 0px rgb(120,120,2);
-    background-color: rgb(120,120,2, 33%);
+    color: rgb(110,110,222);
+    text-shadow: -1px 1px 0px rgb(33,33,77);
+    background-color: rgb(0,0,0, 33%);
     margin-right: -0.2rem;
     margin-left: -0.2rem;
     overflow: hidden !important;
@@ -55,6 +59,93 @@ body{
 }
 .tituloForm2{
     text-align: center;
-    font-family: 'Finger Paint' ,sans-serif;
-    color: rgb(222,222,110);    
+    font-family: 'Finger Paint', sans-serif;
+    color: rgb(110,110,222);    
+}
+.boxResult{
+    color: rgb(110,110,222);    
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.result1{
+    border: solid 2px rgb(110,110,222);
+    text-align: center;
+    padding-top: 0.7px;
+    padding-bottom: 0.7px;
+    padding-right: 1.2px;
+    padding-left: 1.2px;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-top: 0.2px;
+    margin-bottom: 0.2px;    
+}
+.titleResult{
+    color: rgb(110,110,222);
+    font-family: Finger Paint, sans-serif;
+    text-align: center;
+}
+.txt1{
+    color: rgb(110,110,222);
+    text-align: center;
+    margin-bottom: 12px;
+}
+#root{
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+.btnAfter{
+    width: 300px;
+    text-align: center;
+    background-color: rgb(33,33,77);
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    margin-left: 0px auto;
+    color: #ccc important;
+    font-family: Finger Paint, sans-serif;
+    text-decoration: none;
+}
+.stlLinks{
+    text-decoration: none;
+    font-family: Finger Paint, sans-serif;
+    color: #ccc important;
+}
+h1{
+    font-family: Finger Paint, sans-serif;
+    color: #ccc;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ccc;
+}
+.author{
+    background-color: rgb(33,33,77);
+    color: #ccc;
+    paddind-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: Finger Paint, sans-serif;
+}
+.container_autor{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: flex-end;
 }
